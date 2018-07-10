@@ -16,6 +16,6 @@
         <link rel="stylesheet" type="text/css" href="./CSS/eBooksStoreCSS.css">
     </head>
     <body>
-        <h3>Hello World!</h3>
+        <h3>Hello World! 2</h3>
     </body>
 </html> 
