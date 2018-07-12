@@ -16,6 +16,22 @@
         <link rel="stylesheet" type="text/css" href="./CSS/eBooksStoreCSS.css">
     </head>
     <body>
-        <h3>Hello World! 2</h3>
+        <h3>Welcome to Electronic Book Store</h3>
+        <form action="">
+        <table class="tablecenterdwithborder" style="width: 200px">
+            <tr>
+                <td style="width: 45%">placeholder</td>
+                <td><input style="width: auto" type="text" name="user" placeholder="User"><br></td>
+            </tr>
+            <tr>
+                <td style="width: 45%">placeholder</td>
+                <td><input style="width: auto" type="password" name="password" placeholder="password"<br></td>
+            </tr>
+            <tr>
+            <td style="width: 45%">placeholder</td>
+            <td><button style="width: 60%; border-radius: 5px" type="submit">Login</button><br></td>
+            </tr>
+        </table>  
+        </form>
     </body>
 </html> 

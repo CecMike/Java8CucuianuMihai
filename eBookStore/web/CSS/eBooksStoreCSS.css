@@ -20,6 +20,12 @@ h3 {
     text-align: center;
 }
 
+.topnav {
+    width: auto;
+    height: 35px;
+    background: linear-gradient(to bottom, #828282, #6B6B6B);
+}
+
 table{
     border-spacing: 0 0px;
     background-color: whitesmoke;
