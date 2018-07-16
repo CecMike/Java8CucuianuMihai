@@ -3,7 +3,7 @@ Copyright gheorgheaurelpacurar
 */
 /* 
     Author     : gheorgheaurelpacurar
-    Coauthor   : mihaicucuianu
+    Co-author   : mihaicucuianu
     Copyright  : gheorgheaurelpacurar
 */
 body {
@@ -74,7 +74,7 @@ table{
     background-color: whitesmoke;
     font-size: 12px;
     border-style: solid;
-    border-color: darkgrey;
+    border-color: black /*Changed from darkgrey - changed by Mihai Cucuianu*/;
 }
 .tablewithoutborder{
     border-spacing: 0 0px;
@@ -87,9 +87,15 @@ table{
     background-color: lightgrey;
     color: black;
 }
+
+/* Added text alignment(centered), border style, width and color - changed by Mihai Cucuianu */
 td{
     text-align: left;
     vertical-align: top;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
 td.tdl td {
     text-align: left;
@@ -177,7 +183,10 @@ th{
     padding-right: 1px;    
     text-align: left;
     vertical-align: top;
-    white-space: nowrap;
+    white-space: nowrap ;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
 }
 .verticalText
 {

@@ -13,7 +13,7 @@
         <link rel="stylesheet" type="text/css" href="./CSS/eBooksStoreCSS.css">
 
     </head>
-    <div class="container-fluid">
+  
     <body>
         
         <!-- Header for the Main Page -->
@@ -42,5 +42,5 @@
             </div>        
         </div>
     </body>
-    </div>
+  
 </html>
