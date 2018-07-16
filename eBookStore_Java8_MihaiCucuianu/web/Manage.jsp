@@ -17,7 +17,7 @@
     <div class="container-fluid">
         <body>
 
-            <!-- Fake heading used to creat a space betwen the nav bar and the user table -->
+            <!-- Fake heading used to create a space between the nav bar and the user table -->
             <H1 style="opacity: 0">PLACE HOLDER</h1>
 
             <!-- Navigation bar for the website -->
@@ -43,62 +43,104 @@
                 </div>        
             </div>
 
-            <!-- Fake heading used to creat a space betwen the nav bar and the user table -->
+            <!-- Fake heading used to create a space between the nav bar and the user table -->
             <H1 style="opacity: 0">PLACE HOLDER</h1>
 
             <!-- Table containing user, passwords, their access level as well as an option to select
             an user and his data-->
-            <table class="tablecenterdwithborder" style="width: 100%;">
+            <table class="tablecenterdwithborderblack" style="width: 100%;">
 
 
-                
+
                 <!-- Table Header row -->
-                    <tr>                       
-                        <th style="width: 10%">
-                            <div class="thc">
-                                select
-                            </div>
-                        </th>
-                        
-                        <th style="width: 30%">
-                            <div class="thc">
-                                USERNAME
-                            </div>
-                        </th>
+                <tr>                       
+                    <th style="width: 10%">
+                        <div class="thc">
+                            select
+                        </div>
+                    </th>
 
-                        <th style="width: 30%">
-                            <div class="thc">
-                                PASSWORD
-                            </div>
-                        </th>
+                    <th style="width: 30%">
+                        <div class="thc">
+                            USERNAME
+                        </div>
+                    </th>
 
-                        <th style="width: 30%;">
-                            <div class="thc">
-                                <div class="row">
-                                    <div class="col-xs-6" style="text-align:right;">
-                                        <p1>ROLE<p1>
-                                    </div>
-                                    <div class="col-xs-6" style=" text-align:left;">
-                                        <form action=""><input type="submit" value="Admin"/></form>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                        </th>                        
-                    </tr>
-                    
-                    
-                    <!-- A table row of cells -->
-                    <tr>
-                        <td><form><input type="checkbox"/> </form></td>
-                        <td>admin</td>
-                        <td>admin</td>
-                        <td>admin</td>
-                    </tr>
-            </table>
-                                                
-        </body>
-        
-    </div>
-    
-</html>
+                    <th style="width: 30%">
+                        <div class="thc">
+                            PASSWORD
+                        </div>
+                    </th>
+
+                    <th style="width: 30%;">
+                        <div class="thc">
+                            <div class="row">
+                                <div class="col-xs-6" style="text-align:right;">
+                                    <p1>ROLE<p1>
+                                            </div>
+                                            <div class="col-xs-6" style=" text-align:left;">
+                                                <form action=""><input type="submit" value="Admin"/></form>
+                                            </div>
+                                            </div>
+                                            </div>
+
+                                            </th>                        
+                                            </tr>
+
+
+                                            <!-- A table row of cells -->
+                                            <tr>
+                                                <td><form><input type="checkbox"/> </form></td>
+                                                <td>admin</td>
+                                                <td>admin</td>
+                                                <td>admin</td>
+                                            </tr>
+                                            </table>
+
+                                            <!-- Fake heading used to create a space between the nav bar and the user table -->
+                                            <H1 style="opacity: 0">PLACE HOLDER</h1>
+
+                                            <form>
+                                                <table class="tablecenterdwithbordergrey" style="color: whitesmoke">
+
+                                                    <tr>
+                                                        <td style="border-style: none; width: 30px">placeholder</td>
+                                                        <td style="border-style: none; width: 100px"><input style="width: 100px; float: left" type="text" placeholder="User name" /></td>
+                                                        <td style="border-style: none; width: 30px">placeholder</td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <td style="border-style: none; width: 30px">placeholder</td>
+                                                        <td style="border-style: none; width: 130px"><input style="width: auto" type="password" placeholder="password" style="align-self: flex-start" /></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td style="border-style: none; width: 25px">placeholder</td>
+                                                        <td style="border-style: none; width: 115px">
+                                                            <div color: black">
+
+                                                                <select>
+                                                                    <option value="0">User rank:</option>
+                                                                    <option value="1">Admin</option>
+                                                                    <option value="2">Customer</option>
+                                                                </select>
+                                                            </div>
+                                                        </td>
+                                                        <td style="border-style: none; width: 10px"></td>
+                                                    </tr>
+                                                    <tr>
+                                                        
+                                                        <td style="border-style: none; width: 40px"><button class="ebookstorebutton" style="border-radius: 5px;" type="submit">Insert</button></td>
+                                                        <td style="border-style: none; width: 40px"><button class="ebookstorebutton" style="border-radius: 5px;" type="submit">Update</button></td>
+                                                        <td style="border-style: none; width: 40px"><button class="ebookstorebutton" style="border-radius: 5px;" type="submit">Delete</button></td>
+                                                        <td style="border-style: none; width: 40px"><button class="ebookstorebutton" style="border-radius: 5px;" type="submit">Cancel</button></td>
+                                                        
+                                                    </tr>
+
+                                                </table>
+                                            </form>
+
+                                            </body>
+
+                                            </div>
+
+                                            </html>

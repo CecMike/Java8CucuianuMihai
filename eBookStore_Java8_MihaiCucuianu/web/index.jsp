@@ -24,20 +24,20 @@
         <form action="">
             
             <!-- Defining the table -->
-        <table class="tablecenterdwithborder" style="width: 200px">
+        <table class="tablecenterdwithbordergrey" style="width: 200px">
             <tr>
-                <td>placeholder</td>
-                <td><input style="width: auto" type="text" name="user" placeholder="User"><br></td>
+                <td style="border-style: none">placeholder</td>
+                <td style="border-style: none"><input style="width: auto" type="text" name="user" placeholder="User"><br></td>
             </tr>
             <tr>
-                <td>placeholder</td>
-                <td><input style="width: auto" type="password" name="password" placeholder="password"<br></td>
+                <td style="border-style: none">placeholder</td>
+                <td style="border-style: none"><input style="width: auto" type="password" name="password" placeholder="password"<br></td>
             </tr>
             
             <!-- Log in button -->
             <tr>
-            <td>placeholder</td>
-            <td><button style="border-radius: 5px" type="submit">Login</button><br></td>
+            <td style="border-style: none">placeholder</td>
+            <td style="border-style: none"><button style="border-radius: 5px" type="submit">Login</button><br></td>
             </tr>
             
         </table>  
