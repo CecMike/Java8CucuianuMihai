@@ -3,6 +3,7 @@ Copyright gheorgheaurelpacurar
 */
 /* 
     Author     : gheorgheaurelpacurar
+    Coauthor   : mihaicucuianu
     Copyright  : gheorgheaurelpacurar
 */
 body {
@@ -20,9 +21,27 @@ h3 {
     text-align: center;
 }
 
+/*Class that defines the navigation bar style - added by Mihai Cucuianu*/
 .topnav {
     width: auto;
     height: 35px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom, #6B6B6B, #828282);
+}
+
+/*Class that defines the style of inputs that are present in the navigation bar class - added by Mihai Cucuianu*/
+.topnav input {
+    float: left;
+    height: 35px;
+    padding: 0px 25px 0px 25px;
+    background: linear-gradient(to bottom, #6B6B6B, #828282);
+}
+
+/*Class that defines the style of the above mention inputs when hovered above - added by Mihai Cucuianu*/
+.topnav input:hover {
+    float: left;
+    height: 35px;
+    padding: 0px 25px 0px 25px;
     background: linear-gradient(to bottom, #828282, #6B6B6B);
 }
 
@@ -229,3 +248,4 @@ select{
    line-height: 1;
    height: 23px;
    }
+   

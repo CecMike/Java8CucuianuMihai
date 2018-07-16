@@ -16,21 +16,30 @@
         <link rel="stylesheet" type="text/css" href="./CSS/eBooksStoreCSS.css">
     </head>
     <body>
+        <!-- Header for the index page -->
         <h3>Welcome to Electronic Book Store</h3>
+        
+        <!-- Form table for logging in -->
+        
         <form action="">
+            
+            <!-- Defining the table -->
         <table class="tablecenterdwithborder" style="width: 200px">
             <tr>
-                <td style="width: 45%">placeholder</td>
+                <td>placeholder</td>
                 <td><input style="width: auto" type="text" name="user" placeholder="User"><br></td>
             </tr>
             <tr>
-                <td style="width: 45%">placeholder</td>
+                <td>placeholder</td>
                 <td><input style="width: auto" type="password" name="password" placeholder="password"<br></td>
             </tr>
+            
+            <!-- Log in button -->
             <tr>
-            <td style="width: 45%">placeholder</td>
-            <td><button style="width: 60%; border-radius: 5px" type="submit">Login</button><br></td>
+            <td>placeholder</td>
+            <td><button style="border-radius: 5px" type="submit">Login</button><br></td>
             </tr>
+            
         </table>  
         </form>
     </body>

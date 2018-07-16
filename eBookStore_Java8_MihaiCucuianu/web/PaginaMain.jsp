@@ -1,7 +1,7 @@
 <%-- 
-    Document   : PaginaMain
+    Document   : PaginaMain - eBookStore site
     Created on : Jul 12, 2018, 4:56:24 PM
-    Author     : mike
+    Author     : mihaicucuianu
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -9,39 +9,37 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <title>Main Page</title>
+        <title>eBookStore_MainPage</title>
         <link rel="stylesheet" type="text/css" href="./CSS/eBooksStoreCSS.css">
 
     </head>
     <div class="container-fluid">
     <body>
+        
+        <!-- Header for the Main Page -->
         <h1>In pagina main!</h1>
+        
+        <!-- Navigation bar for the website -->
         <div class="topnav">
-            <div class="row">
-                <div class="col-lg-2" >
-            <form action="Manage.jsp">
-            <input type="submit" value="Manage" style="height: auto; align-content: center; border-radius: 5px"/>
-            </form>
-                    </div>
             
-                <div class="col-lg-2">
-            <form action="Orders.jsp">
-            <input type="submit" value="Orders" /> <!-- Aici cred ca e vb de un script sau o aplicatie Java 
-                                           care sa delogheze userul si sa il trimita la index.jsp -->
-            </form>
-                    </div>
+            <!-- Container for setting the base text style -->
+            <div class="thc" style="color: white;">
                 
-          <div class="col-lg-2">
-            <form action="Log-out">
+                <!-- Navigation button that points to the Manage page - with rounded corners to its left side -->
+                <form action="Manage.jsp">
+            <input type="submit" value="Manage" style="border-radius: 5px 0px 0px 5px;"/>
+                </form>
+                
+                <!-- Navigation button that points to the Orders page -->
+                <form action="Orders.jsp">
+            <input type="submit" value="Orders" />
+                </form>
+                
+                <!-- Navigation button for logging out the user -->
+                <form action="LogOut.jsp">
             <input type="submit" value="Log out" />
-            </form>
-            </div>
-     
-     <div class="col-lg-6">
-         
-     </div>
-            </div>
+                </form>
+            </div>        
         </div>
     </body>
     </div>
