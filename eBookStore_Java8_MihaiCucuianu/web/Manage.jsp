@@ -101,7 +101,7 @@
                                             <H1 style="opacity: 0">PLACE HOLDER</h1>
 
                                             <form>
-                                                <table class="tablecenterdwithbordergrey" style="color: whitesmoke">
+                                                <table class="tablecenterdwithbordergrey" style="color: whitesmoke; width: 160px">
 
                                                     <tr>
                                                         <td style="border-style: none; width: 30px">placeholder</td>
