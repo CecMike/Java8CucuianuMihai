@@ -100,44 +100,24 @@
                                             <!-- Fake heading used to create a space between the nav bar and the user table -->
                                             <H1 style="opacity: 0">PLACE HOLDER</h1>
 
-                                            <form>
-                                                <table class="tablecenterdwithbordergrey" style="color: whitesmoke; width: 160px">
-
-                                                    <tr>
-                                                        <td style="border-style: none; width: 30px">placeholder</td>
-                                                        <td style="border-style: none; width: 100px"><input style="width: 100px; float: left" type="text" placeholder="User name" /></td>
-                                                        <td style="border-style: none; width: 30px">placeholder</td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <td style="border-style: none; width: 30px">placeholder</td>
-                                                        <td style="border-style: none; width: 130px"><input style="width: auto" type="password" placeholder="password" style="align-self: flex-start" /></td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td style="border-style: none; width: 25px">placeholder</td>
-                                                        <td style="border-style: none; width: 115px">
-                                                            <div color: black">
-
-                                                                <select>
+                                            
+                                            <div class="managementtolltip">
+                                                <form style="margin-bottom: 1px; margin-top: 1px;">
+                                                    <input style="margin-left: 20px; margin-bottom: 1px; margin-top: 1px; width: 120px; background-color: lightgoldenrodyellow" type="text" placeholder="User Name"/><br>
+                                                    <input style="margin-left: 50px; margin-bottom: 1px; margin-top: 1px; background-color: lightgoldenrodyellow" type="password" placeholder="Password"/><br>
+                                                    <select style="border-radius: 0.5em; margin-bottom: 1px; margin-top: 1px;">
                                                                     <option value="0">User rank:</option>
                                                                     <option value="1">Admin</option>
                                                                     <option value="2">Customer</option>
-                                                                </select>
-                                                            </div>
-                                                        </td>
-                                                        <td style="border-style: none; width: 10px"></td>
-                                                    </tr>
-                                                    <tr>
-                                                        
-                                                        <td style="border-style: none; width: 40px"><button class="ebookstorebutton" style="border-radius: 5px;" type="submit">Insert</button></td>
-                                                        <td style="border-style: none; width: 40px"><button class="ebookstorebutton" style="border-radius: 5px;" type="submit">Update</button></td>
-                                                        <td style="border-style: none; width: 40px"><button class="ebookstorebutton" style="border-radius: 5px;" type="submit">Delete</button></td>
-                                                        <td style="border-style: none; width: 40px"><button class="ebookstorebutton" style="border-radius: 5px;" type="submit">Cancel</button></td>
-                                                        
-                                                    </tr>
-
-                                                </table>
-                                            </form>
+                                                    </select><br>
+                                                    <div style="text-align: center">
+                                                    <button style="border-radius: 0.5em; width: 50px; margin-bottom: 1px; margin-top: 1px;" type="submit">Insert</button>
+                                                    <button style="border-radius: 0.5em; width: 50px; margin-bottom: 1px; margin-top: 1px;" type="submit">Update</button>
+                                                    <button style="border-radius: 0.5em; width: 50px; margin-bottom: 1px; margin-top: 1px;" type="submit">Delete</button>
+                                                    <button style="border-radius: 0.5em; width: 50px; margin-bottom: 1px; margin-top: 1px;" type="submit">Cancel</button>
+                                                    </div>
+                                                </form>
+                                            </div>                                
 
                                             </body>
 
