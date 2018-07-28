@@ -25,6 +25,7 @@
             
             <!-- Defining the table -->
         <table class="tablecenterdwithbordergrey" style="width: 200px">
+            <form action="">
             <tr>
                 <td style="border-style: none">placeholder</td>
                 <td style="border-style: none"><input style="width: auto" type="text" name="user" placeholder="User"><br></td>
@@ -39,7 +40,7 @@
             <td style="border-style: none">placeholder</td>
             <td style="border-style: none"><button style="border-radius: 5px" type="submit">Login</button><br></td>
             </tr>
-            
+            </form>
         </table>  
         </form>
     </body>
